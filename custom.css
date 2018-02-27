@@ -1,0 +1,176 @@
+*, *::before, *::after{
+  -moz-box-sizing: border-box;
+       box-sizing: border-box;
+  
+  -webkit-transition: all 0.3s ease-in-out;
+          transition: all 0.3s ease-in-out;
+}
+
+body{
+	color: #000;
+	font-size: 16px;
+}
+
+.bg-dark {
+  background-color: transparent!important;
+}
+
+.nav-scroll {
+	background-color: rgba(0,139,139, .9)!important;
+}
+
+.navbar-dark .navbar-brand {
+	color: white;
+	font-size: 2em;
+	font-weight: 600;
+	padding-bottom: 1px;
+}
+
+.letter {
+	color: white;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+	color: white;
+	font-weight: 600;
+	font-size: 1.1em;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+	color: #DCDCDС;
+}
+
+.jumbotron {
+	background-image: url(https://images.unsplash.com/photo-1489844097929-c8d5b91c456e?auto=format&fit=crop&w=1352&q=80);
+	background-position: bottom;
+	background-size: cover;
+	color: #fff;
+	height: 400px;
+}
+
+.jumbotron h1, p {
+	background-color: rgba(100,100,100,0.6);
+	padding: 7px;
+}
+
+ .jumbotron h1 {
+	font-size: 3em;
+	width: 40%;
+}
+
+.jumbotron p {
+	font-size: 1.5em;
+	width: 90%;
+}
+
+.jumbotron .btn-group-lg>.btn, .btn-lg {
+	font-size: 2em;
+	font-weight: 600;
+}
+
+ .jumbotron .btn {
+	border-width: 2px;
+	border-color: DARKCYAN;
+	color: DARKCYAN;
+}
+
+.jumbotron .btn:hover {
+	background-color: DARKCYAN;
+	border-color: DARKCYAN;
+	color: white;
+}
+
+.jumbotron .btn:active {
+	background-color: DARKCYAN!important;
+	border-color: DARKCYAN!important;
+	color: white!important;
+}
+
+.btn-outline-success {
+	color: DARKCYAN;
+	border-color: DARKCYAN;
+}
+
+.btn-outline-success:hover {
+	background-color: DARKCYAN;
+	border-color: DARKCYAN;
+}
+
+.card-text{
+	font-size: 1.1em;
+	background-color: transparent;
+	color: black;
+}
+
+.card .btn {
+	font-size: 1.2em;
+}
+
+.greet {
+	text-align: center;
+}
+
+.greet h2 {
+	color: DARKCYAN;
+	font-size: 4em;
+}
+
+i {
+	color: DARKCYAN;
+	font-size: 1.5em;
+}
+
+.greet p {
+	background-color: rgba(100,100,100,1);
+	color: white;
+	border-radius: 5px;
+	margin: 30px auto;
+	font-size: 1.3em;
+	text-align: center;
+	padding: 20px;
+}
+
+.greet p:hover {
+	background-color: DARKCYAN;
+	color: white;
+}
+
+.carousel,.carousel-inner {
+	height: 400px;
+}
+
+.carousel {
+	margin: 20px auto;
+}
+
+.btn-dark {
+	background-color: darkcyan;
+  border-color: darkcyan;
+}
+
+.btn-dark:hover {
+	background-color: rgba(0,139,139, .8);
+  border-color: rgba(0,139,139, .8);
+}
+
+.notice {
+	padding: 20px;
+	margin-bottom: 20px;
+	border: 1px solid gray;
+	border-radius: 10px;
+}
+
+.notice p {
+	background-color: transparent;
+	border-left: 4px solid darkcyan;
+	padding-top: 0;
+	padding-bottom: 0;
+	font-size: 1.2em;
+	font-weight: 300;
+}
+
+.notice h3 {
+	color: darkslategrey;
+	font-size: 2.5em;
+	font-weight: 400;
+}
